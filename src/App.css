@@ -14,14 +14,14 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #dadada;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
 }
 
 .App-link {
@@ -35,4 +35,50 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.input-class{
+	border-radius: 6px;
+	border: 0;
+	outline-color: #52BE80;
+	outline-style: solid;
+	padding: 18px;
+	display: block;
+	margin: 0 auto;
+	margin-bottom:14px;
+	text-align: center;
+}
+
+table {
+	text-align: center;   
+	border-collapse: collapse;
+	font-size: 16px;  
+	margin-left: 30px;
+}
+th{
+	background-color: #52BE80;
+	color: white;
+	position: relative;
+}
+th,td{
+	height: 72px;
+	border-bottom: 1px solid #ddd;
+}
+#content {
+	height:450px;
+	width:770px;
+	overflow:scroll;
+	margin: 0 auto;
+}
+#btn{
+	background-color: #52BE80; 
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    border: 0;
+    font-size: 16px;
+    border-radius: 50px;
+	margin: 0 45;
+	margin-bottom: 20px;
 }
